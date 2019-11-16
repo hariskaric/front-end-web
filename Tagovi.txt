@@ -9,9 +9,11 @@
 
 
 
-
+                        TIJELO STRANICE I NJEZINI TAGOVI I ELEMENTI:
 <body>
+
 <h1>Naslov</h1>
+
 <p>Paragraf</p>
 
 <ul>
@@ -20,9 +22,43 @@
    <li>JavaScript</li>
 </ul>
 
-<strong> PODEBLJAVA TEKST</strong>
-<b>Također podebljava tekst</b>
-<br>ODVAJA JEDAN RED
-<em> KOSI TAG </em> - ITALIC TAG
+<strong> </strong> - PODEBLJAVA TEKST
+
+<b> </b> - Također podebljava tekst
+
+<br> - PRELAZAK U NOVI RED
+
+<em>  </em> - ITALIC TAG
+
 <sub>2</sub> - KORISTIMO ZA FORMULE DA BI BROJ BIO IZNAD ILI ISPOD
 
+<p> Ovo odvaja jedan red &nbsp; YOU SEE?</p> - "&nbsp;" odvaja jedan red, ako želimo više dodamo ih više.
+
+<pre> MONOSPACE TAG </pre>
+
+<blockquote> </blockquote> - OVO JE OBIČNI TAG CITAT 
+
+<q> </q> - OVO JE DRUGI CITAT SA NAVODNICIMA 
+
+<hr> - TAG ZA DEFINISANJE RAZDVOJNE LINIJE (Horizontalna Linija)
+
+<ol> </ol> - UREĐENA LISTA
+
+<ul> </ul> - NEUREĐENA LISTA
+
+<dl> </dl> - DEFINICIONE LISTE
+
+<li> </li> - DEFINISANJE STAVKI U LISTI (LI - List Item)
+
+
+PRAVILNO DODAVANJE LISTE KOJA ĆE SE PRIKAZATI U SVIM BROWSERIMA KAKO TREBA:
+<ul>
+    <li>Škoda
+    <ul>
+        <li>je dobro vozilo!</li>
+    </ul>
+    </li>
+</ul> 
+
+<ol> </ol> - UREĐENA LISTA
+<ol type="A> </ol> - ATRIBUT TYPE="" KAKO ĆE SE ISPISATI, NPR (ABCDE, RIMSKI BROJEVI, BROJEVI ITD...)
