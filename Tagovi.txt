@@ -1,0 +1,28 @@
+                         ZAGLAVLJE STRANICE:
+<!DOCTYPE html>
+<head>
+<title> </title>
+<meta charset="UTF-8">
+<meta name="author" content="Haris Karić">
+<meta name="keywords" content="Haris Karic, Haris Developer, Karic Developer">
+<meta name="description" content="Portfolio za Web Developera">
+
+
+
+
+<body>
+<h1>Naslov</h1>
+<p>Paragraf</p>
+
+<ul>
+   <li>HTML</li>
+   <li>CSS</li>
+   <li>JavaScript</li>
+</ul>
+
+<strong> PODEBLJAVA TEKST</strong>
+<b>Također podebljava tekst</b>
+<br>ODVAJA JEDAN RED
+<em> KOSI TAG </em> - ITALIC TAG
+<sub>2</sub> - KORISTIMO ZA FORMULE DA BI BROJ BIO IZNAD ILI ISPOD
+
