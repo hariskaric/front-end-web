@@ -10,58 +10,30 @@
 
 
                         TIJELO STRANICE I NJEZINI TAGOVI I ELEMENTI:
+HTML Text Formatting:
 <body>
-
-<h1>Naslov</h1>
-
-<p>Paragraf</p>
-
-<ul>
-   <li>HTML</li>
-   <li>CSS</li>
-   <li>JavaScript</li>
-</ul>
-
-<strong> </strong> - PODEBLJAVA TEKST
-
-<b> </b> - Također podebljava tekst
-
-<br> - PRELAZAK U NOVI RED
-
-<em>  </em> - ITALIC TAG
-
-<sub>2</sub> - KORISTIMO ZA FORMULE DA BI BROJ BIO IZNAD ILI ISPOD
-
-<p> Ovo odvaja jedan red &nbsp; YOU SEE?</p> - "&nbsp;" odvaja jedan red, ako želimo više dodamo ih više.
-
-<pre> MONOSPACE TAG </pre>
-
-<blockquote> </blockquote> - OVO JE OBIČNI TAG CITAT 
-
-<q> </q> - OVO JE DRUGI CITAT SA NAVODNICIMA 
-
-<hr> - TAG ZA DEFINISANJE RAZDVOJNE LINIJE (Horizontalna Linija)
-
-<ol> </ol> - UREĐENA LISTA
-
-<ul> </ul> - NEUREĐENA LISTA
-
-<dl> </dl> - DEFINICIONE LISTE
-
-<li> </li> - DEFINISANJE STAVKI U LISTI (LI - List Item)
-
-
-PRAVILNO DODAVANJE LISTE KOJA ĆE SE PRIKAZATI U SVIM BROWSERIMA KAKO TREBA:
-<ul>
-    <li>Škoda
-    <ul>
-        <li>je dobro vozilo!</li>
-    </ul>
-    </li>
-</ul> 
-
-<ol> </ol> - UREĐENA LISTA
-<ol type="A> </ol> - ATRIBUT TYPE="" KAKO ĆE SE ISPISATI, NPR (ABCDE, RIMSKI BROJEVI, BROJEVI ITD...)
-
-<a href="#">LINK PRIMJER</a>
-<a href="#" target="_blank">   </a> - OTVARA LINK U NOVOM TABU
+<h1>
+<h2>
+<h3>
+<h4>
+<h5>
+<h6>
+<p>
+style="background-color: green; color: blue;
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Small text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+<q> - Quote Text
+<blockquote> - Quote Text
+         Example of Comments
+<!-- Write your comments here -->
+<!-- Do not display this image at the moment
+<img border="0" src="pic_trulli.jpg" alt="Trulli">
+-->
