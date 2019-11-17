@@ -19,7 +19,12 @@ HTML Text Formatting:
 <h5>
 <h6>
 <p>
+
 style="background-color: green; color: blue;
+style="border:2px solid Tomato;"
+
+
+
 <b> - Bold text
 <strong> - Important text
 <i> - Italic text
