@@ -1,0 +1,10 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Public Sans", sans-serif;
+  font-size: 14px;
+}
+a {
+  color: white;
+  background-color: #e91e63;
+}
