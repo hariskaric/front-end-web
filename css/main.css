@@ -1,10 +1,12 @@
 body {
-  background-color: black;
-  color: white;
-  font-family: "Public Sans", sans-serif;
-  font-size: 14px;
+  background-color: #e9ebee;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
 }
-a {
-  color: white;
-  background-color: #e91e63;
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
 }
