@@ -2,10 +2,8 @@
   margin: 0;
   padding: 0;
 }
-
-
 body {
-  background-image: url(/slike/background.jpg);
+  background-image: url(/front-end-web/slike/background.jpg);
   background-attachment: fixed;
   background-size: cover;
   color: black;
@@ -18,13 +16,9 @@ h1 {
 h2 {
   text-align: center;
 }
-
-
 #wrapper {
  
 }
-
-
 header {
   background-color: rgb(21, 32, 43);
   color: white;
@@ -38,18 +32,15 @@ nav {
   padding: 20px;
   color: white;
   list-style: inside;
-
 }
 .nav-desno {
   float: right;
 }
 nav > ul {
   list-style: none;
-  
 }
 ul > li {
   display: inline;
-  
 }
 li > a {
   color: white;
@@ -66,15 +57,6 @@ section {
   float: right;
   padding: 10px;
   margin: 10px;
- 
-}
-
-
-
-footer {
-  background-color: rgb(21, 32, 43, 0.9);
-  color: white;
-  margin-top: 10px;
 }
 p {
   padding: 5px;
@@ -112,12 +94,9 @@ p {
   border: 2px solid #021a40;
   border-color: white;
   float: right;
-  
 }
 .aktivan, .aktivan:hover {
   background-color: #f12711;
- 
-  
 }
 .highlight {
   font-family: 'Indie Flower', cursive;
@@ -138,14 +117,14 @@ p {
   text-align: justify;
   color: rgb(240, 240, 240);
   letter-spacing: 2px;
-  
 }
+
+/* TABELA  */
 #informacije {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
-
 #informacije td, #informacije th {
   border: 1px solid #ddd;
   padding: 8px;
@@ -156,6 +135,11 @@ p {
   text-align: left;
   background-color: #0d0e0d;
   color: white;
+}
+footer {
+  background-color: rgb(21, 32, 43, 0.9);
+  color: white;
+  margin-top: 10px;
 }
 .clear {
   clear: both;
