@@ -1,5 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
-  background-color: #e9ebee;
+  background-image: url(/slike/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
   color: black;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
@@ -9,4 +17,146 @@ h1 {
 }
 h2 {
   text-align: center;
+}
+
+
+#wrapper {
+ 
+}
+
+
+header {
+  background-color: rgb(21, 32, 43);
+  color: white;
+  font-family: 'Indie Flower', cursive;
+}
+
+nav {
+  background-color: rgb(21, 32, 43, 0.9);
+  float: left;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  list-style: inside;
+
+}
+.nav-desno {
+  float: right;
+}
+nav > ul {
+  list-style: none;
+  
+}
+ul > li {
+  display: inline;
+  
+}
+li > a {
+  color: white;
+  padding: 10px;
+  margin: 2px;
+  text-decoration: none;
+  border: 1px solid white;
+  font-weight: bold;
+}
+section {
+  background-color: rgb(21, 32, 43, 0.9);
+  color: white;
+  width: 950px;
+  float: right;
+  padding: 10px;
+  margin: 10px;
+ 
+}
+
+
+
+footer {
+  background-color: rgb(21, 32, 43, 0.9);
+  color: white;
+  margin-top: 10px;
+}
+p {
+  padding: 5px;
+}
+.logo > a {
+   color: white;
+   text-decoration: none;
+}
+.naslov {
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  border-bottom: 1px solid gray;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.slike {
+  
+}
+.slika {
+  text-align: center;
+}
+.slika-u {
+  border: 2px solid #021a40;
+  border-color: white;
+  width: 400px;
+}
+.pic-l {
+  width: 340px;
+  border: 2px solid #021a40;
+  border-color: white;
+  float: left;
+}
+.pic-r {
+  width: 322px;
+  border: 2px solid #021a40;
+  border-color: white;
+  float: right;
+  
+}
+.aktivan, .aktivan:hover {
+  background-color: #f12711;
+ 
+  
+}
+.highlight {
+  font-family: 'Indie Flower', cursive;
+  font-size: 35px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-align: center;
+  
+  border-bottom: 1px solid white;
+  margin: 10px;
+}
+.text {
+  padding: 10px;
+}
+.text > p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  text-align: justify;
+  color: rgb(240, 240, 240);
+  letter-spacing: 2px;
+  
+}
+#informacije {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#informacije td, #informacije th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#informacije th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0d0e0d;
+  color: white;
+}
+.clear {
+  clear: both;
 }
