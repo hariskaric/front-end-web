@@ -22,6 +22,6 @@ body>p:last-child:hover {
     font-style: italic;
     color: yellow;
 }
-p:last-of-type:hover {
+body>p:last-of-type:hover {
     font-style: italic;
 }
