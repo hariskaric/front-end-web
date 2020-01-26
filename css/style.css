@@ -1,27 +1,63 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: #050210;
+    width: 550px;   
+    height: 550px;
 }
-a[href^="https://www.google.com/"] {
-    color: green;
+#div1 {
+    width: 350px;
+    height: 350px;
+    background-image: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+    border-radius: 100%;
+    position: absolute;
+    margin: auto;
+    left:300px;
+    top:150px;
+    animation-name: anim2;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
-a[href="https://www.link-group.eu/"] {
-    color: red;
+#div1::before {
+    content: "";
+    height: 120%;
+    width: 120%;
+    position: absolute;
+    margin: auto;
+    top: -10%;
+    left:-10%;
+    border-radius: 100%;
+    background-image: linear-gradient(#fb5dad, #55fb9f, #b97aff);
+    filter: blur(70px);
 }
-#second-div p:nth-of-type(odd) {
-    color: red;
+#div2 {
+    width: 300px;
+    height: 300px;
+    background: #050210;
+    border-radius: 100%;
+    position: absolute;
+    margin: auto;
+    top:25px;
+    left: 0;
+    right: 0;
 }
-#second-div p:nth-of-type(even) {
-    color:blue;
+#div3 {
+    width: 50px;
+    height: 50px;
+    background:#0a051d;
+    border-radius: 100%;
+    position: relative;
+    left: 125px;
+    top:125px;
+    animation-name: anim1;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
 }
-body>p:last-child:hover {
-    font-style: italic;
+@keyframes anim1 {
+   from {transform: scale(1,1);}
+   to {transform: scale(6,6); }
 }
-#first-div>p::after {
-    content: "NEW";
-    font-style: italic;
-    color: yellow;
-}
-body>p:last-of-type:hover {
-    font-style: italic;
+@keyframes anim2 {
+    from {transform:rotate(0deg);}
+    to {transform: rotate(360deg);}
 }
