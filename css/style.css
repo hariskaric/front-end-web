@@ -1,63 +1,80 @@
 body {
-    background-color: #050210;
-    width: 550px;   
-    height: 550px;
+    margin: 0;
+    color: black;
+    font-family: 'Maven Pro',sans-serif;
+    font-size: 1.5vh;
 }
-#div1 {
-    width: 350px;
-    height: 350px;
-    background-image: linear-gradient( #fb5dad, #55fb9f, #b97aff);
-    border-radius: 100%;
-    position: absolute;
-    margin: auto;
-    left:300px;
-    top:150px;
-    animation-name: anim2;
-    animation-duration: 0.7s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+#wrapper {
+    width: 90%;
+    max-width: 960px;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
 }
-#div1::before {
-    content: "";
-    height: 120%;
-    width: 120%;
-    position: absolute;
-    margin: auto;
-    top: -10%;
-    left:-10%;
-    border-radius: 100%;
-    background-image: linear-gradient(#fb5dad, #55fb9f, #b97aff);
-    filter: blur(70px);
+#header {
+    flex-basis: 100%;
 }
-#div2 {
-    width: 300px;
-    height: 300px;
-    background: #050210;
-    border-radius: 100%;
-    position: absolute;
-    margin: auto;
-    top:25px;
-    left: 0;
-    right: 0;
+#main {
+    flex-grow: 5;
+    flex-basis: 0%;
 }
-#div3 {
-    width: 50px;
-    height: 50px;
-    background:#0a051d;
-    border-radius: 100%;
-    position: relative;
-    left: 125px;
-    top:125px;
-    animation-name: anim1;
-    animation-duration: 0.8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-out;
+#header,
+#main {
+    padding: 10px;
 }
-@keyframes anim1 {
-   from {transform: scale(1,1);}
-   to {transform: scale(6,6); }
+#header {
+    margin: 10px auto;
+    background-color: #e2e2e2;
+    box-shadow: -1px 2px 12px 0 rgba(0, 0, 0, 0.2);
 }
-@keyframes anim2 {
-    from {transform:rotate(0deg);}
-    to {transform: rotate(360deg);}
+#main {
+    background-color: #e2e2e2;
+    box-shadow: -1px 2px 12px 0 rgba(0, 0, 0, 0.2);
+}
+#main>h2 {
+    text-align: center;
+}
+.flex-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    background-color: #6ca2d9;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    transition: 0.3s;
+    border-radius: 10px;
+    width: 16.66%;
+    padding: 5px;
+    margin: 5px;
+}
+.card>img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.desc {
+    color: white;
+}
+@media screen and (max-width: 1024px) {
+    .card {
+        width: 25%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .card {
+        width: 50%;
+}
+
+}
+@media screen and (max-width: 414px) {
+    .card {
+        width: 100%;
+    }
 }
