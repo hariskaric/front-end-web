@@ -1,6 +1,6 @@
-let brojJedan = parseInt(prompt("UNESITE PRVI BROJ: "));
+let brojJedan = Number(prompt("UNESITE PRVI BROJ: "));
 let operacija = prompt("Unesite aritmetičku operaciju: (+, -, *, /)");
-let brojDva = parseInt(prompt("UNESITE DRUGI BROJ: "));
+let brojDva = Number(prompt("UNESITE DRUGI BROJ: "));
 
 switch (operacija) {
   case "+":
